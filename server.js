@@ -19,6 +19,13 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 // Connect to database
 connectDB();
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "API is working"
+  });
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.status(200).json({ success: true, message: 'Server is running' });
