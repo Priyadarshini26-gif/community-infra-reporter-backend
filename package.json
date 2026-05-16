@@ -19,6 +19,9 @@
     "nodemailer": "^8.0.7"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "globals": "^17.6.0",
     "nodemon": "^3.0.1"
   }
 }
