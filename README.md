@@ -66,20 +66,6 @@ cd backend
 
 npm install
 
-## Environment Variables
-
-Create a `.env` file.
-
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_secret_key
-
-JWT_EXPIRE=7d
-
-CLIENT_URL=http://localhost:5173
-
 ## Run Server
 
 npm start
